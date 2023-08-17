@@ -1,0 +1,38 @@
+let = [seconds, minutes, hours] = [0,0,0];
+let displayTime = document.getElementById("diplayTime")
+let timer = null;
+
+function StopWatch() {
+  seconds++;
+
+  if(seconds == 60) {
+    seconds = 0;
+    minutes++;
+    if(minutes == 60){
+      minutes = 0;
+      hours++;
+    }
+  }
+  
+  let h = hours < 10 ? "0" + hours : hours;
+  let m = minutes < 10 ? "0" + minutes : minutes;
+  let s = seconds < 10 ? "0" + seconds : seconds;
+
+  displayTime.innerHTML = h + ":" + m + ":" + s;
+}
+function WatchStart() {
+  if(timer !== null) {
+    clearInterval(timer);
+  }
+  timer = setInterval(StopWatch,1000)
+}
+
+function WatchStop() {
+ clearInterval(timer);  
+}
+
+function WatchReset() {
+ clearInterval(timer);
+ let = [seconds, minutes, hours] = [0,0,0];
+ displayTime.innerHTML = "00:00:00"  
+} 
