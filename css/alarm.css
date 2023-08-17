@@ -50,127 +50,30 @@ body {
   padding-right: 110px;
 }
 
-/* .box {
-  position: relative;
-  max-width: 400px;
-  margin-left: 450px;
-}
-
-.main__img {
-  max-width: 100%;
-}
-
-.form {
-  padding-left: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.input {
-  padding: 10px;
-  padding-right: 30px;
-  background-color: grey;
-  border: none;
-}
-
-.alarm {
-  bottom: 350px;
-  left: 60px;
-  position: absolute;
-  background-color: white;
-}
-
 .wrapper {
   display: flex;
-  align-items: center;
-  gap: 10px;
+  flex-direction: column;
+  /* margin-left: 200px;
+  margin-top: 100px; */
 }
 
 .button {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-right: 40px;
-  padding-left: 20px;
-  border-radius: 10px;
-  border: none;
-  cursor: pointer;
-  color: white;
-  background-color: aqua;
-}
-
-.button1 {
-  padding-right: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.stop-alarm {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 5px;
-  border: none;
-  cursor: pointer;
-  color: white;
-  background-color: red;
-}
-
-
-.stop-alarm:hover{
-  transition: 0.8s;
-  background-color: white;
-  color: red;
-  border: 2px solid red;
-}
-
-.stop__btn{
-padding-bottom: 10px;
-margin-left: auto;
-margin-right: auto;
-text-align: center;
-} */
-
-.alarm__img {
-  padding-top: 30px;
-  max-width: 100px;
-  margin-left: 100px;
-  margin-bottom: 10px;
-}
-
-.title {
-  margin-bottom: 15px;
-  color: blue;
-  text-align: center;
-}
-
-.wrapper {
-  max-width: 500px;
-  background-color: white;
-  margin-top: 200px;
-  border-radius: 10px;
-}
-
-.column {
-  text-align: center;
-}
-
-.select {
-  padding: 10px;
-  background-color: cornflowerblue;
-  margin-bottom: 20px;
-
-}
-
-.main__btn {
-  padding-bottom: 10px;
-  text-align: center;
-}
-
-
-.btn{
   padding: 10px 20px;
-  border: none;
-  background-color: darkblue;
-  color: white;
+  margin-bottom: 20px;
+}
+
+.input {
+  padding: 10px 20px;
+}
+
+.button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: green;
+}
+
+.close {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: red;
 }

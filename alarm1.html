@@ -9,24 +9,17 @@
   </head>
   <body>
     <div class="wrapper container">
-      <img class="alarm__img" src="./img/alarm.png" alt="alarm__img" />
-      <h1 class="title">00:00:00:PM</h1>
-      <div class="content">
-        <div class="column">
-          <select class="select">
-            <option value="Hour" selected hidden>Hour</option>
-          </select>
-          <select class="select">
-            <option value="Minute" selected hidden>Minute</option>
-          </select>
-          <select class="select">
-            <option value="AM/PM" selected hidden>AM/PM</option>
-          </select>
+         <main>
+      <section id="heri">
+        <div class="container">
+          <div class="wrapper">
+            <input type="time" class="input" />
+            <button type="submit" class="button">Start</button>
+            <button class="close">Stop</button>
+          </div>
         </div>
-      </div>
-      <div class="main__btn">
-        <button class="btn">Set Alarm</button>
-      </div>
+      </section>
+    </main>
     </div>
 
     <script src="js/main.js"></script>
