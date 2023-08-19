@@ -3,19 +3,20 @@
 const Input = document.querySelector(".input");
 const button = document.querySelector(".button");
 const buttonClose = document.querySelector(".close");
+console.log(buttonClose);
 const alarm = new Audio()
 let interval;
-alarm.src = "./ringtone.mp3"
+alarm.src = "./nasheed.mp3"
 
-buttonClose.addEventListener("click", () => {
-  clearInterval(interval);
-  alarm.pause()
-  alarm.pause()
-})
 
 
 button.addEventListener("click", (e) => {
-e.preventDefault()
+  e.preventDefault()
+  buttonClose.addEventListener("click", () => {
+    clearInterval(interval);
+    alarm.pause()
+    alarm.pause()
+  })
 let TIME = Input.value
 console.log(TIME);
 interval = setInterval(() => {

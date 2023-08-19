@@ -1,0 +1,99 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+body {
+  margin: 0;
+}
+.container {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 110px;
+  padding-right: 110px;
+}
+
+.box {
+  position: relative;
+  max-width: 450px;
+  margin-left: 450px;
+}
+
+.main__img {
+  max-width: 100%;
+}
+
+.alarm__img {
+  width: 45px;
+  height: 45px;
+  left: 90px;
+  top: 280px;
+  position: absolute;
+}
+
+.alarm {
+  left: 95px;
+  top: 330px;
+  color: white;
+  position: absolute;
+}
+
+.timer {
+  left: 160px;
+  top: 330px;
+  color: white;
+  position: absolute;
+}
+
+.clock {
+  left: 240px;
+  top: 330px;
+  color: white;
+  position: absolute;
+}
+
+.images {
+  width: 45px;
+  height: 45px;
+  left: 160px;
+  top: 280px;
+  position: absolute;
+}
+
+.images2{
+  width: 45px;
+    height: 45px;
+    left: 240px;
+    top: 280px;
+    position: absolute;
+}
