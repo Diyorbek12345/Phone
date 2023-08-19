@@ -6,7 +6,7 @@ const buttonClose = document.querySelector(".close");
 console.log(buttonClose);
 const alarm = new Audio()
 let interval;
-alarm.src = "./nasheed.mp3"
+alarm.src = "./sevgi.mp3"
 
 
 
